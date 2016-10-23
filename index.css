@@ -1,0 +1,52 @@
+body{
+	margin:0px;
+}
+main{
+	background-color: #002b36;
+	/* background-image: url("/home/addison/dotfiles/coolbackground.jpg"); */
+	min-height: 100vh;
+	min-width: 100vw;
+}
+
+#title{
+	min-height: 50vh;
+	min-width: 50vw;
+	top: 50%;
+	left: 50%;
+	margin-top: -25vh;
+	margin-left: -25vw;
+	position: absolute;
+}
+
+#title > h1 {
+	color: #eee8d5;
+	text-align: center;
+	/* color: #b58900; */
+	margin: 0px;
+	width: 100%;
+}
+
+#leftbox {
+	float:left;
+}
+
+#rightbox {
+	float:right;
+}
+
+#middlebox {
+	display: inline-block;
+	float:center;
+}
+
+.links {
+	display: block;
+	/* min-width: 30vw; */
+	min-width: 33%;
+	min-height: 100%
+}
+
+h2{
+	text-align: center;
+	color: #93a1a1;
+}
